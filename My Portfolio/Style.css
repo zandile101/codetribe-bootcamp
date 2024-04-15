@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    background-color: aliceblue;
+    font-family: "Jost", sans-serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    padding: 1.5rem;
+}
+
+.logo h2 {
+    color: #0000ff;
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+}
+
+
+li{
+    padding: 2rem;
+}   
+
+li a{
+    text-decoration: none;
+}
+
+.social-icons{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-img{
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+}
+
+.hero-content{
+    line-height: 4rem;
+    font-size: 1.5rem;
+}
+
+#name{
+    color: #0000ff;
+}
+
+.btn{
+    width: 150px;
+    height: 40px;
+    background-color: #0000ff;
+    color: azure;border: none;
+}
+
+.teach-stack{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+}
+
+.tech-stack-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    gap: 2.1rem;
+}
+
+.projects{
+    margin-top: 3rem;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    align-items: center;
+    justify-content: center;
+    gap: 1.7rem;
+    margin-top: 3rem;
+}
+
+.card{
+    width: 20rem;
+    height: 24rem;
+    background-color: aliceblue;   
+}
+
+.about{
+    text-align: center;
+    margin: 3rem;
+}
+
+.workexperience-content{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem;
+}
+
+.education-content{
+    display: grid;
+    justify-content: space-evenly;
+    margin: 2rem;
+    margin-bottom: 2rem;
+}
+
+.line{
+    border-bottom:1px solid #0000ff;
+    display: block;
+    width: 60%;
+    margin-left: 15%;
+}
+
+.location-icon{
+    display: grid;
+    margin: 1rem;
+    margin-top: 2rem;
+    justify-content: left;
+}
+
+.project{
+    text-align: center;
+    margin: 3rem;
+    margin-top: 2rem;
+}
+
+.contract-content{
+    text-align: center;
+    margin: 3rem;
+}
